@@ -2,7 +2,7 @@
 Data store of U.S. House of Representatives Expenditure Data
 d3.js vizulization using this data at [Hamilton Project](https://github.com/meagdoh/hamilton-project)
 
-##Analyzing Data for Social Good
+## Analyzing Data for Social Good
 Building off of my capstone project, Hamilton Project (which was based of the initial research data from The OpenGov Foundation, Sunlight Foundation, and Propublica), I carefully analyzed over 600,000 transaction records from the U.S. House of Representatives' Statements of Disbursements, 2015-2017.
 
 All of the documentation on cleaning the data is stored in [this](https://github.com/meagdoh/hamilton-project/blob/master/data/HamiltonProject_DataStore.ipynb) Jupyter notebook while some preliminary visualizations are saved in the README of the repo of the original application (built w. D3 and React)
@@ -38,18 +38,18 @@ If you are analyzing personnel data, mark: [SORT_SUBTOTAL_DESCRIPTION] does *not
 #### Key
 | Field Name | Description |
 | ----------- | ------- |
-|`ORGANIZATION` | - Office Name |
-|`PROGRAM` | General category of expense |
-|`SORT_SUBTOTAL_DESCRIPTION` | Specific category of expense |
-|`SORT_SEQUENCE` | Total, Subtotal, Detail |
+|`ORGANIZATION`| Office Name |
+|`PROGRAM`| General category of expense |
+|`SORT_SUBTOTAL_DESCRIPTION`| Specific category of expense |
+|`SORT_SEQUENCE`| Total, Subtotal, Detail |
 |`TRANSACTION_DATE`| Date of Transaction |
-|`DATA SOURCE` | GL, AP, AR |
-|`DOCUMENT` | Document ID number |
-|`VENDOR_NAME` | Vendor Name NOTE: Employee name is stored in `VENDOR_NAME` |
-|`PERFORM_START_DT` | Start Date |
-|`PERFORM_END_DT` | End Date |
-|`DESCRIPTION` | Detailed description of transaction |
-|`AMOUNT` | Amount in USD |
+|`DATA SOURCE`| GL, AP, AR |
+|`DOCUMENT`| Document ID number |
+|`VENDOR_NAME`| Vendor Name NOTE: Employee name is stored in `VENDOR_NAME` |
+|`PERFORM_START_DT`| Start Date |
+|`PERFORM_END_DT`| End Date |
+|`DESCRIPTION`| Detailed description of transaction |
+|`AMOUNT`| Amount in USD |
 
 ### Research Questions
 
