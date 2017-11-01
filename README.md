@@ -1,6 +1,6 @@
 # house-disbursement-data
 Data store of U.S. House of Representatives Expenditure Data
-d3.js vizulization using this data at [Hamilton Project] (https://github.com/meagdoh/hamilton-project)
+d3.js vizulization using this data at [Hamilton Project](https://github.com/meagdoh/hamilton-project)
 
 ##Analyzing Data for Social Good
 Building off of my capstone project, Hamilton Project (which was based of the initial research data from The OpenGov Foundation, Sunlight Foundation, and Propublica), I carefully analyzed over 600,000 transaction records from the U.S. House of Representatives' Statements of Disbursements, 2015-2017.
@@ -8,7 +8,7 @@ Building off of my capstone project, Hamilton Project (which was based of the in
 All of the documentation on cleaning the data is stored in [this](https://github.com/meagdoh/hamilton-project/blob/master/data/HamiltonProject_DataStore.ipynb) Jupyter notebook while some preliminary visualizations are saved in the README of the repo of the original application (built w. D3 and React)
 
 ### Resources
-New to data analysis? Infoactive's (e-book)[https://infoactive.co/data-design/] is a must read.
+New to data analysis? Infoactive's [e-book](https://infoactive.co/data-design/) is a must read.
 
 This 'Visualizing Data' course at John Hopkins by @georgiamoon has additional resources and interpretations of Congressional spending data: https://github.com/georgiamoon/jhu-dv-2017
 
@@ -36,18 +36,20 @@ If you are analyzing personnel data, mark: [SORT_SUBTOTAL_DESCRIPTION] does *not
 
 
 #### Key
-`ORGANIZATION` - Office Name
-`PROGRAM` - General category of expense
-`SORT_SUBTOTAL_DESCRIPTION` - Specific category of expense
-`SORT_SEQUENCE` - Total, Subtotal, Detail
-`TRANSACTION_DATE`- Date of Transaction
-`DATA SOURCE` - GL, AP, AR
-`DOCUMENT` - Document ID number
-`VENDOR_NAME` - Vendor Name NOTE: Employee name is stored in `VENDOR_NAME`  
-`PERFORM_START_DT` - Start Date
-`PERFORM_END_DT` - End Date
-`DESCRIPTION` - Detailed description of transaction
-`AMOUNT` - Amount in USD
+| Field Name | Description |
+| ----------- | ------- |
+|`ORGANIZATION` | - Office Name |
+|`PROGRAM` | General category of expense |
+|`SORT_SUBTOTAL_DESCRIPTION` | Specific category of expense |
+|`SORT_SEQUENCE` | Total, Subtotal, Detail |
+|`TRANSACTION_DATE`| Date of Transaction |
+|`DATA SOURCE` | GL, AP, AR |
+|`DOCUMENT` | Document ID number |
+|`VENDOR_NAME` | Vendor Name NOTE: Employee name is stored in `VENDOR_NAME` |
+|`PERFORM_START_DT` | Start Date |
+|`PERFORM_END_DT` | End Date |
+|`DESCRIPTION` | Detailed description of transaction |
+|`AMOUNT` | Amount in USD |
 
 ### Research Questions
 
@@ -77,4 +79,4 @@ For a full list, run query: [add query]
 
 
 ### Next steps
-- A signal tracker. By having this as a live dashboard, we can build in alerts if specific spending changes significantly. 
+- A signal tracker. By having this as a live dashboard, we can build in alerts if specific spending changes significantly.
