@@ -61,22 +61,20 @@ For non-personnel data:
 - How has spending categories changed over time?
 
 ### Data Findings
-- No. of Transactions Analyzed: 635,721
+No. of Transactions Analyzed: 635,721
 
-- As noted in past work, `VENDOR_NAME` `Unknown` is the biggest category of spending. The `DATA_SOURCE` for all `Vendor` equals `unknown` originate from the `GL` (General Ledger). And the highest transaction category is `DC TELECOM TOLLS`_($11,014,427)_
+> As noted in past work, `VENDOR_NAME` `Unknown` is the biggest category of spending. The `DATA_SOURCE` for all `Vendor` equals `unknown` originate from the `GL` (General Ledger). And the highest transaction category is `DC TELECOM TOLLS`_($11,014,427)_
 
-- `VENDOR NAME` equals `CITIBANK GOV CARD SERVICE` _($18,606,367)_ is the top vendor after `NULL`.
+>`VENDOR NAME` equals `CITIBANK GOV CARD SERVICE` _($18,606,367)_ is the top vendor after `NULL`.
+>> Assumption: Tech purchases are made on P-cards but the research shows these cards are used mostly for `COMMERCIAL TRANSPORTATION`.
 
-Assumption: Tech purchases are made on P-cards but the research shows these cards are used mostly for `COMMERCIAL TRANSPORTATION`.
+>When analyzing total expenditures by `DESCRIPTION` we find the top category fall into `TECHNOLOGY SERVICE CONTRACTS` _($37,712,578)_. In this category, there are the well-known technology vendors like *iConstituent* and *Fireside21*, but there are a few top vendors who you may not know:
+>> - MINERAL GAP DATA CENTER, _$1.9M_
+>> - COMPROBASE INC., _$1.5M_
+>> - ADVANCE DIGITAL SYSTEMS INC., _$1.5M_
+>>> For a full list, run `DESCRIPTION` EQUALS `TECHNOLOGY SRVICE CONTRACTS`  
 
-- When analyzing total expenditures by `DESCRIPTION` we find the top category fall into `TECHNOLOGY SERVICE CONTRACTS` _($37,712,578)_. In this category, there are the well-known technology vendors like *iConstituent* and *Fireside21*, but there are a few top vendors who you may not know:
--- MINERAL GAP DATA CENTER, _$1.9M_
--- COMPROBASE INC., _$1.5M_
--- ADVANCE DIGITAL SYSTEMS INC., _$1.5M_
-For a full list, run query: [add query]
-
-- Research often cites limited technology staff. A search for `DESCRIPTION` (in this case, defined as staff title) contains `TECH` OR `SYS ADMIN` results in approximately _200 staffers_ with these titles ranging from `Tech Policy Advisor` to `System Administrator`, _about X% of all staff total_ (taken from other data source)
-
+> Research often cites limited technology staff. A search for `DESCRIPTION` (in this case, defined as staff title) contains `TECH` OR `SYS ADMIN` results in approximately _200 staffers_ with these titles ranging from `Tech Policy Advisor` to `System Administrator`
 
 ### Next steps
 - A signal tracker. By having this as a live dashboard, we can build in alerts if specific spending changes significantly.
