@@ -1,8 +1,8 @@
 # house-disbursement-data
 Data store of U.S. House of Representatives Expenditure Data
-d3.js vizulization using this data at [Hamilton Project] (https://github.com/meagdoh/hamilton-project)
+d3.js vizulization using this data at [Hamilton Project](https://github.com/meagdoh/hamilton-project)
 
-##Analyzing Data for Social Good
+## Analyzing Data for Social Good
 Building off of my capstone project, Hamilton Project (which was based of the initial research data cleaning from the OpenGov Foundation and Sunlight Foundation, respectively), I carefully analyzed over 600,000 transaction records from the House of Representatives' Statements of Disbursements.
 
 All of the documentation on cleaning the data is stored in this Jupyter notebook [link] while some preliminary visualizations are saved in the README of the repo of the original application (built w. D3 and React)
