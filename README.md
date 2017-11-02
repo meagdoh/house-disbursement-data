@@ -15,7 +15,7 @@ This 'Visualizing Data' course at John Hopkins by @georgiamoon has additional re
 ### Limitations
 Due to the inconsistent data formats, missing values and confusing fields, I spent a lot of time in circles around which areas I wanted to focus on. Was I building an application like [beta.USAspending.gov](https://beta.usaspending.gov/#/) or [USA Facts](https://usafacts.org/) for end users to query a clean, consolidated databased OR was there a specific story I could tell using visualizations - taking one more step that the user didn't have to.
 
-I settled a bit on both. The first (querying a database) is currently a manual upload with a few simple rules that eventually could be in a script). The second is a set of basic visualizations in Tableau. With the idea of moving to a coded visualization at [meagdoherty.io/hamilton-project/](meagdoherty.io/hamilton-project/)
+I settled a bit on both. The first (querying a database) is currently a manual upload with a few simple rules that eventually could be in a script). The second is a set of basic visualizations in Tableau. With the idea of moving to a coded visualization at [meagdoherty.io/hamilton-project/](http://meagdoherty.io/hamilton-project/)
 
 
 ### Adding new data
