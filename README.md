@@ -23,7 +23,7 @@ Download .csv from U.S. House of Representatives [Statement of Disbursements](ht
 
 ### Rules for cleaning data
 1) *Confirm Headers*: [ ORGANIZATION, PROGRAM, SORT_SUBTOTAL_DESCRIPTION, SORT_SEQUENCE, TRANSACTION_DATE, DATA SOURCE, DOCUMENT, VENDOR_NAME, PERFORM_START_DT, PERFORM_END_DT, DESCRIPTION, AMOUNT
-]
+] I've manually added _ to field names with more than 1 word.
 
 2) *Set* [SORT_SEQUENCE] = [DETAIL] this removes the subtotals and total rows from the data set.
 
