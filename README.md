@@ -19,7 +19,7 @@ I settled a bit on both. The first (querying a database) is currently a manual u
 
 
 ### Adding new data
-Download .csv from U.S. House of Representatives [Statement of Disbursements](https://disbursements.house.gov/), save as `CongressSession_Year_QuarterNum` e.g. `114_2016_Q1.csv`
+Download .csv from U.S. House of Representatives [Statement of Disbursements](https://disbursements.house.gov/). The most recent file is labeled `SOD DETAIL TRANSACTION`. Download `.csv` and save as `CongressSession_Year_QuarterNum.csv` e.g. `114_2016_Q1.csv`
 
 ### Rules for cleaning data
 1) *Confirm Headers*: [ ORGANIZATION, PROGRAM, SORT_SUBTOTAL_DESCRIPTION, SORT_SEQUENCE, TRANSACTION_DATE, DATA SOURCE, DOCUMENT, VENDOR_NAME, PERFORM_START_DT, PERFORM_END_DT, DESCRIPTION, AMOUNT
